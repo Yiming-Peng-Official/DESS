@@ -2,7 +2,7 @@ import numpy as np
 from scipy.spatial.distance import cdist
 from sklearn.cluster import DBSCAN
 
-from pymoo.model.subset_selection import SubsetSelection, normalize
+from subset_selection import SubsetSelection, normalize
 from pymoo.subset_selection.distance_based_subset_selection import DistanceBasedSubsetSelection
 
 
