@@ -3,7 +3,7 @@ from collections.abc import Iterable
 import numpy as np
 from scipy.spatial.distance import cdist
 
-from pymoo.model.subset_selection import normalize, SubsetSelection
+from subset_selection import normalize, SubsetSelection
 
 
 class DistanceBasedSubsetSelection(SubsetSelection):
